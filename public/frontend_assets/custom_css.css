@@ -112,3 +112,19 @@
     display: inline-block;
     line-height: 1;
 }
+
+/* #hero_section_home {
+    background: url(frontend_assets/common/hero/1.png) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+} */
+.inner_page_hero {
+    margin-top: 100px;
+}
+@media (min-width: 1024px) {
+    .inner_page_hero {
+        margin-top: 110px;
+    }
+}
