@@ -43,11 +43,16 @@
     <link href="{{ asset('frontend_assets/theme_assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend_assets/custom_css.css') }}" rel="stylesheet">
 
+    <link href="{{ asset('frontend_assets/client-slider.css') }}" rel="stylesheet">
+
     <style>
         body {
             font-family: 'Roboto', sans-serif;
         }
+
+        
     </style>
+    @yield('custom_css')
 
 </head>
 
@@ -69,9 +74,12 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
     <script src="{{ asset('frontend_assets/theme_assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
     <script src="{{ asset('frontend_assets/theme_assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -81,6 +89,8 @@
 
 
     <script src="{{ asset('frontend_assets/theme_assets/js/main.js') }}"></script>
+
+    @yield('custom_js')
 
 </body>
 
