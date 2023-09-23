@@ -13,4 +13,8 @@ class MasterController extends Controller
         // return view('frontend.layout.master');
         return view('frontend.pages.home');
     }
+    public function about_us()
+    {
+        return view('frontend.pages.about');
+    }
 }
