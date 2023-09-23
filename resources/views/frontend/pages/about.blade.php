@@ -101,22 +101,38 @@
 
 
 
-        {{-- <div class="row justify-content-center">
-            <div class="col-6 text-center" style="background-color: #10125e; padding: 15px 0px; border-radius: 10px;">
-                <h4 class="text-white">ABOUT US</h4>
-            </div>
-        </div> --}}
+        <!-- ====== Clients Slider ====== -->
+        <section id="about" class="about client_slider pt-0">
+            {{-- <div class="container-fluid"> --}}
+            <div class="section-title">
+                <h2 style="color: #458300">OUR CLIENTS</h2>
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+                <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
+                    Trusted by Visionaries: Our Valued Clients
+                </h4>
+            </div>
+            <section class="client-slider">
+                <div class="slider">
+                    <div class="logos me-3 me-md-0">
+                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                    </div>
+                    <div class="logos">
+                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                    </div>
+                </div>
+            </section>
+            {{-- </div> --}}
+        </section>
     </main>
 
 
