@@ -185,8 +185,6 @@
             </div>
         </section><!-- End Services Section -->
 
-
-
         <!-- ======= About Section ======= -->
         <section id="about" class="about pt-0">
             <div class="container">
@@ -213,7 +211,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="fa-regular fa-snowflake"></i></div>
                             <h4 class="title"><a href="">Dehumidifier and humidifier System</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                                blanditiis
                                 praesentium voluptatum deleniti atque</p>
                         </div>
 
@@ -259,6 +258,64 @@
         </section><!-- End About Section -->
 
 
+
+        <!-- ====== Clients Slider ====== -->
+        <section id="about" class="about pt-0">
+            <div class="container-fluid">
+                <div class="section-title">
+                    <h2 style="color: #458300">OUR CLIENTS</h2>
+
+                    <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
+                        Trusted by Visionaries: Our Valued Clients
+                    </h4>
+                </div>
+
+                {{-- <section class="customer-logos slider">
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/1.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/2.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/3.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/4.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/5.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/6.png')}}">
+                    </div>
+                    <div class="slide">
+                        <img src="{{asset('frontend_assets/common/client-slider/1.png')}}">
+                    </div>
+
+                </section> --}}
+                <section class="client-slider">
+                    <div class="slider">
+                        <div class="logos">
+                            <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                        </div>
+                        <div class="logos">
+                            <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                            <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
 
 
         <!-- ======= Testimonials Section ======= -->
