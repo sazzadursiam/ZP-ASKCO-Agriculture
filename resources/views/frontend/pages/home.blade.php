@@ -260,61 +260,36 @@
 
 
         <!-- ====== Clients Slider ====== -->
-        <section id="about" class="about pt-0">
-            <div class="container-fluid">
-                <div class="section-title">
-                    <h2 style="color: #458300">OUR CLIENTS</h2>
+        <section id="about" class="about client_slider pt-0">
+            {{-- <div class="container-fluid"> --}}
+            <div class="section-title">
+                <h2 style="color: #458300">OUR CLIENTS</h2>
 
-                    <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
-                        Trusted by Visionaries: Our Valued Clients
-                    </h4>
-                </div>
-
-                {{-- <section class="customer-logos slider">
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/1.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/2.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/3.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/4.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/5.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/6.png')}}">
-                    </div>
-                    <div class="slide">
-                        <img src="{{asset('frontend_assets/common/client-slider/1.png')}}">
-                    </div>
-
-                </section> --}}
-                <section class="client-slider">
-                    <div class="slider">
-                        <div class="logos">
-                            <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
-                        </div>
-                        <div class="logos">
-                            <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
-                            <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
-                        </div>
-                    </div>
-                </section>
+                <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
+                    Trusted by Visionaries: Our Valued Clients
+                </h4>
             </div>
+            <section class="client-slider">
+                <div class="slider">
+                    <div class="logos me-3 me-md-0">
+                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                    </div>
+                    <div class="logos">
+                        <img src="{{ asset('frontend_assets/common/client-slider/1.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/2.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/3.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/4.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/5.png') }}">
+                        <img src="{{ asset('frontend_assets/common/client-slider/6.png') }}">
+                    </div>
+                </div>
+            </section>
+            {{-- </div> --}}
         </section>
 
 
