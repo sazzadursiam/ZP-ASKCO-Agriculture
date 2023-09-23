@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Jesa Electronics | @yield('page_title')</title>
+    <title>AskCo | @yield('page_title')</title>
 
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -15,8 +15,14 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link
+    {{-- <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet"> --}}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
@@ -36,6 +42,12 @@
 
     <link href="{{ asset('frontend_assets/theme_assets/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('frontend_assets/custom_css.css') }}" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 
 </head>
 
