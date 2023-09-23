@@ -105,11 +105,7 @@
         <section id="about" class="about client_slider pt-0">
             {{-- <div class="container-fluid"> --}}
             <div class="section-title">
-                <h2 style="color: #458300">OUR CLIENTS</h2>
-
-                <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
-                    Trusted by Visionaries: Our Valued Clients
-                </h4>
+                <h2 style="color: #458300">CLIENTS</h2>
             </div>
             <section class="client-slider">
                 <div class="slider">
