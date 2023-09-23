@@ -10,15 +10,42 @@
     width: 100%;
     display: inline-block;
     margin: 0px 0;
-    height: 120px;
+    /* height: 120px; */
 }
 
 .client-slider .slider .logos img {
     width: calc(100% / 6);
     height: 100%;
     object-fit: contain;
-    padding: 0 25px;
+    /* padding: 0 25px; */
     animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+}
+
+@media (max-width: 575px) {
+    .client-slider .slider .logos {
+        height: 60px;
+    }
+    .client-slider .slider .logos img {
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .client-slider .slider .logos {
+        height: 120px;
+    }
+    .client-slider .slider .logos img {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .client-slider .slider .logos {
+        height: 120px;
+    }
+    .client-slider .slider .logos img {
+        padding: 0 25px;
+    }
 }
 
 @keyframes slidein {

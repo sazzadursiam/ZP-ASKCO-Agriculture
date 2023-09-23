@@ -17,4 +17,29 @@ class MasterController extends Controller
     {
         return view('frontend.pages.about');
     }
+
+    public function seed_processing()
+    {
+        return view('frontend.pages.services.seed_processing');
+    }
+
+    public function seed_packaging()
+    {
+        return view('frontend.pages.services.seed_packaging');
+    }
+
+    public function transport()
+    {
+        return view('frontend.pages.services.transport');
+    }
+
+    public function contact()
+    {
+        return view('frontend.pages.contact');
+    }
+
+    public function clients()
+    {
+        return view('frontend.pages.clients');
+    }
 }
