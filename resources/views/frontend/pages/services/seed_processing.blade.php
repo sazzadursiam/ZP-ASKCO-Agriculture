@@ -1,5 +1,6 @@
 @extends('frontend.layout.master')
-@section('about_menu_active', 'active')
+@section('services_menu_active', 'active')
+@section('processing_menu_active', 'active')
 @section('page_title')
     Seed Processing
 @endsection

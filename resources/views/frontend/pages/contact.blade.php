@@ -1,13 +1,13 @@
 @extends('frontend.layout.master')
-@section('about_menu_active', 'active')
+@section('contact_menu_active', 'active')
 @section('page_title')
-    About us
+    Contact us
 @endsection
 
 @section('custom_css')
 
     <style>
-        .social-links a {
+        .contact_us_page .social-links a {
             font-size: 18px;
             display: inline-block;
             background: #10125e;
@@ -38,7 +38,7 @@
 
         <!-- =======  Section ======= -->
         <section id="" class="">
-            <div class="container mt-5">
+            <div class="container mt-5 contact_us_page">
                 <div class="row gy-4">
                     <div class="col-md-6">
                         <h6 class="text-uppercase" style="color: #458300"><b>CONTACT US FOR ANY QUESTIONS</b></h6>
