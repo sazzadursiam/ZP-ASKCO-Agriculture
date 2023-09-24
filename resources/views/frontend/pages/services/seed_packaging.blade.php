@@ -48,8 +48,7 @@
         <div class="inner_page_hero d-flex flex-column align-items-center position-relative">
             <img src="{{ asset('frontend_assets/common/seed_packaging.png') }}" alt="" class="w-100">
 
-            <div class="text-center"
-                style="background-color: #10125e; padding: 15px 0px; border-radius: 10px; width:40%;position: absolute;bottom: -35px;">
+            <div class="text-center inner-box">
                 <h5 class="text-white mb-0 text-uppercase"><b>Seed Packaging</b></h5>
             </div>
         </div>
