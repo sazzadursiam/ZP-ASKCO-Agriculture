@@ -10,30 +10,28 @@
                         House: 34, Old DOHS <br>
                         Dhaka cantonment.<br>
                         Banani, Dhaka-1206 <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        <strong>Phone:</strong> +8801678590209<br>
+                        <strong>Email:</strong> askco_msp@ymail.com<br>
                     </p>
                 </div>
 
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4 class="text-white">Quick Links</h4>
                     <ul class="text-white">
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home_page') }}">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('about_us_page') }}">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('contact') }}">Contact us</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4 class="text-white">Our Services</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-processing') }}">Seed
+                                Processing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-packaging') }}">Seed
+                                Packaging</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('transport') }}">Transport</a></li>
                     </ul>
                 </div>
 
