@@ -11,12 +11,15 @@
             <ul>
                 <li><a class="nav-link scrollto @yield('home_menu_active')" href="{{ route('home_page') }}">Home</a></li>
                 <li><a class="nav-link scrollto @yield('about_menu_active')" href="{{ route('about_us_page') }}">About us</a></li>
-                <li class="dropdown @yield('services_menu_active')"><a href="#"><span>Services</span> <i
-                            class="bi bi-chevron-down"></i></a>
+                <li class="dropdown">
+                    <a class="@yield('services_menu_active')" href="#">
+                        <span>Services</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
                     <ul>
-                        <li><a href="{{ route('seed-processing') }}">Seed Processing</a></li>
-                        <li><a href="{{ route('seed-packaging') }}">Seed Packaging</a></li>
-                        <li><a href="{{ route('transport') }}">Transport</a></li>
+                        <li><a class="@yield('processing_menu_active')" href="{{ route('seed-processing') }}">Seed Processing</a></li>
+                        <li><a class="@yield('packaging_menu_active')" href="{{ route('seed-packaging') }}">Seed Packaging</a></li>
+                        <li><a class="@yield('transport_menu_active')" href="{{ route('transport') }}">Transport</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto @yield('clients_menu_active')" href="{{ route('clients') }}">Our Clients</a></li>

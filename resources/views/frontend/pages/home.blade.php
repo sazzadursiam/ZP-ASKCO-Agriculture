@@ -15,71 +15,43 @@
             <div class="container">
 
                 <div class="row">
-                    {{-- <div class="col-lg-4 d-flex align-items-stretch">
-                        <div class="content">
-                            <h3>Why Choose Medilab?</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus
-                                optio ad corporis.
-                            </p>
-                            <div class="text-center">
-                                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div> --}}
+
                     <div class="col-lg-12 d-flex align-items-stretch">
                         <div class="icon-boxes d-flex flex-column justify-content-center">
                             <div class="row">
                                 <div class="col-xl-3 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0" style="background: #458301">
-                                        {{-- <i class="bx bx-receipt"></i> --}}
                                         <i class="fa-solid fa-truck-arrow-right"></i>
                                         <h4>Transport Facility</h4>
-                                        {{-- <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-                                            aliquip</p> --}}
                                     </div>
                                 </div>
                                 <div class="col-xl-3 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0" style="background: #10125E;">
-                                        {{-- <i class="bx bx-cube-alt"></i> --}}
                                         <i class="fa-solid fa-charging-station"></i>
                                         <h4>Backup Generator</h4>
-                                        {{-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                            deserunt</p> --}}
                                     </div>
                                 </div>
                                 <div class="col-xl-3 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0" style="background: #458301">
-                                        {{-- <i class="bx bx-images"></i> --}}
                                         <i class="fa-solid fa-vial-virus"></i>
                                         <h4>Laboratory Equipments & Facility</h4>
-                                        {{-- <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-                                            facere</p> --}}
                                     </div>
                                 </div>
                                 <div class="col-xl-3 d-flex align-items-stretch">
                                     <div class="icon-box mt-4 mt-xl-0" style="background: #10125E">
-                                        {{-- <i class="bx bx-images"></i> --}}
                                         <i class="fa-regular fa-snowflake"></i>
                                         <h4>Dehumidifier &
                                             Humidifier System</h4>
-                                        {{-- <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-                                            facere</p> --}}
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- End .content-->
+                        </div>
                     </div>
                 </div>
 
             </div>
-        </section><!-- End Why Us Section -->
+        </section>
 
-
-
-        <!-- ======= Departments Section ======= -->
         <section id="departments" class="departments pt-0">
             <div class="container">
                 <div class="row gy-4">
@@ -99,7 +71,7 @@
                             fruits & vegetable preservation & Processing also. It has dehumidifier for exp & humidifier
                             system which can keep high humid & low humid Product.</p>
                         <div>
-                            <a href="#" class="appointment-btn mb-2">DISCOVER
+                            <a href="{{ route('about_us_page') }}" class="appointment-btn mb-2">DISCOVER
                                 MORE</a>
                         </div>
                     </div>
@@ -108,9 +80,8 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End Departments Section -->
+        </section>
 
-        <!-- ======= Services Section ======= -->
         <section id="services" class="services pt-0">
             <div class="container">
 
@@ -120,18 +91,15 @@
                     <h4 class="text-uppercase" style="font-weight: 700; color:#10125E">
                         we offer a wide array of services designed to support and empower our mission of preserving
                     </h4>
-                    {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
                 </div>
 
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 ">
                         <div class="icon-box">
                             <img src="{{ asset('frontend_assets/common/2.png') }}" alt="">
-                            <h4 class="mt-4"><a href="">Seed Processing</a></h4>
+                            <h4 class="mt-4"><a href="{{ route('seed-processing') }}">Seed Processing</a></h4>
                             <div>
-                                <a href="#" class="appointment-btn mb-2">READ MORE</a>
+                                <a href="{{ route('seed-processing') }}" class="appointment-btn mb-2">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -139,9 +107,9 @@
                     <div class="col-lg-4 col-md-6  mt-4 mt-md-0">
                         <div class="icon-box">
                             <img src="{{ asset('frontend_assets/common/3.png') }}" alt="">
-                            <h4 class="mt-4"><a href="">Seed Processing</a></h4>
+                            <h4 class="mt-4"><a href="{{ route('seed-packaging') }}">Seed Packaging</a></h4>
                             <div>
-                                <a href="#" class="appointment-btn mb-2">READ MORE</a>
+                                <a href="{{ route('seed-packaging') }}" class="appointment-btn mb-2">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -149,43 +117,17 @@
                     <div class="col-lg-4 col-md-6  mt-4 mt-lg-0">
                         <div class="icon-box">
                             <img src="{{ asset('frontend_assets/common/4.png') }}" alt="">
-                            <h4 class="mt-4"><a href="">Seed Processing</a></h4>
+                            <h4 class="mt-4"><a href="{{ route('transport') }}">Transport Facility</a></h4>
                             <div>
-                                <a href="#" class="appointment-btn mb-2">READ MORE</a>
+                                <a href="{{ route('transport') }}" class="appointment-btn mb-2">READ MORE</a>
                             </div>
                         </div>
                     </div>
-
-                    {{-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box">
-                            <div class="icon"><i class="fas fa-dna"></i></div>
-                            <h4><a href="">Nemo Enim</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box">
-                            <div class="icon"><i class="fas fa-wheelchair"></i></div>
-                            <h4><a href="">Dele cardo</a></h4>
-                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                        <div class="icon-box">
-                            <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                            <h4><a href="">Divera don</a></h4>
-                            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-                        </div>
-                    </div> --}}
-
                 </div>
-
             </div>
-        </section><!-- End Services Section -->
+        </section>
 
-        <!-- ======= About Section ======= -->
+
         <section id="about" class="about pt-0">
             <div class="container">
                 <div class="section-title">
@@ -203,14 +145,14 @@
 
                         <div class="icon-box">
                             <div class="icon"><i class="fa-solid fa-charging-station"></i></div>
-                            <h4 class="title"><a href="">Backup Generator</a></h4>
+                            <h4 class="title"><a href="#">Backup Generator</a></h4>
                             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
                                 excepturi sint occaecati cupiditate non provident</p>
                         </div>
 
                         <div class="icon-box">
                             <div class="icon"><i class="fa-regular fa-snowflake"></i></div>
-                            <h4 class="title"><a href="">Dehumidifier and humidifier System</a></h4>
+                            <h4 class="title"><a href="#">Dehumidifier and humidifier System</a></h4>
                             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                 blanditiis
                                 praesentium voluptatum deleniti atque</p>
@@ -218,7 +160,7 @@
 
                         <div class="icon-box">
                             <div class="icon"><i class="fa-solid fa-temperature-low"></i></div>
-                            <h4 class="title"><a href="">Pre-Cool/Heat Room</a></h4>
+                            <h4 class="title"><a href="#">Pre-Cool/Heat Room</a></h4>
                             <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
                                 odit. Sunt aut deserunt minus aut eligendi omnis</p>
                         </div>
@@ -229,14 +171,14 @@
 
                         <div class="icon-box">
                             <div class="icon"><i class="fa-solid fa-vial-virus"></i></div>
-                            <h4 class="title"><a href="">Laboratory Equipment and Facility</a></h4>
+                            <h4 class="title"><a href="#">Laboratory Equipment and Facility</a></h4>
                             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
                                 excepturi sint occaecati cupiditate non provident</p>
                         </div>
 
                         <div class="icon-box">
                             <div class="icon"><i class="fa-solid fa-seedling"></i></div>
-                            <h4 class="title"><a href="">Favorable Environment
+                            <h4 class="title"><a href="#">Favorable Environment
                                     for Quality Products </a></h4>
                             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
                                 blanditiis
@@ -245,7 +187,7 @@
 
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-gift"></i></div>
-                            <h4 class="title"><a href="">Manual Packing</a></h4>
+                            <h4 class="title"><a href="#">Manual Packing</a></h4>
                             <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
                                 odit. Sunt aut deserunt minus aut eligendi omnis</p>
                         </div>
@@ -255,13 +197,13 @@
                 </div>
 
             </div>
-        </section><!-- End About Section -->
+        </section>
 
 
 
-        <!-- ====== Clients Slider ====== -->
+
         <section id="about" class="about client_slider pt-0">
-            {{-- <div class="container-fluid"> --}}
+
             <div class="section-title">
                 <h2 style="color: #458300">OUR CLIENTS</h2>
 
@@ -289,11 +231,10 @@
                     </div>
                 </div>
             </section>
-            {{-- </div> --}}
+
         </section>
 
 
-        <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials pt-0">
             <div class="container">
 
@@ -324,7 +265,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -342,7 +283,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -360,7 +301,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -378,7 +319,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                         <div class="swiper-slide">
                             <div class="testimonial-wrap">
@@ -396,14 +337,14 @@
                                     </p>
                                 </div>
                             </div>
-                        </div><!-- End testimonial item -->
+                        </div>
 
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section>
 
 
     </main>
