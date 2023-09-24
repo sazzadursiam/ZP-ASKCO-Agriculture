@@ -128,3 +128,16 @@
         margin-top: 110px;
     }
 }
+.inner-box {
+    background-color: #10125e;
+    padding: 15px 0px;
+    border-radius: 10px;
+    width: 40%;
+    position: absolute;
+    bottom: -35px;
+}
+@media (max-width: 768px) {
+    .inner-box {
+        width: 70%;
+    }
+}

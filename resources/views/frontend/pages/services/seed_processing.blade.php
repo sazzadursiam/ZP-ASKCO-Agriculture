@@ -26,8 +26,7 @@
         <div class="inner_page_hero d-flex flex-column align-items-center position-relative">
             <img src="{{ asset('frontend_assets/common/seed-processing.png') }}" alt="" class="w-100">
 
-            <div class="text-center"
-                style="background-color: #10125e; padding: 15px 0px; border-radius: 10px; width:40%;position: absolute;bottom: -35px;">
+            <div class="text-center inner-box">
                 <h5 class="text-white mb-0 text-uppercase"><b>Seed Processing</b></h5>
             </div>
         </div>
@@ -115,6 +114,24 @@
                             </p>
                         </div>
 
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-md-6 col-lg-3 py-2 text-center">
+                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/1.png') }}"
+                            alt="">
+                    </div>
+                    <div class="col-md-6 col-lg-3 py-2 text-center">
+                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/2.png') }}"
+                            alt="">
+                    </div>
+                    <div class="col-md-6 col-lg-3 py-2 text-center">
+                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/3.png') }}"
+                            alt="">
+                    </div>
+                    <div class="col-md-6 col-lg-3 py-2 text-center">
+                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/4.png') }}"
+                            alt="">
                     </div>
                 </div>
             </div>
