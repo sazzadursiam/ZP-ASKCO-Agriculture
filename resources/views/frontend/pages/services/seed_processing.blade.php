@@ -32,110 +32,59 @@
         </div>
 
 
-
-        <!-- ======= Departments Section ======= -->
         <section id="departments" class="departments">
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i> We
-                                have
-                                a
-                                separate
-                                work shade for
-                                fumigation, grading,
-                                packaging and necessary
-                                space for sun
-                                drying is also available. We have Unit-1 and Unit-2 Processing Plant Seed Cleaning/ Grading,
-                                Gravity Separator, Treatment-Drying, Packing. Inkjet Print & delivery also. Working Power &
-                                Capacity at askco MSP Centre Limited. Ashulia, Dhaka.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Rice Seed Cleaning grading per/Day Capacity up to 100MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Seed Gravity Separator Per/Day Capacity up to 80MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Seed Treatment & Auto Drying Per/Day Capacity up to 80MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Small Seed Treater Cum Coating Dressing Drum for Vegetables capacity 200 kg per hour.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Small Seed Treater Cum Coating Dressing Drum for Vegetables capacity 200 kg per hour.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Manual Packing (Man Power) Per/Day Capacity up to 50 MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Manual Packing (Man Power) Per/Day Capacity up to 50 MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Auto Packaging Machine Per/Day Capacity up to 30 MT.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Inkjet Printing Per/Day Capacity 35000 Pcs Pouch.
-                            </p>
-                        </div>
-                        <div class="seed_box">
-                            <p>
-                                <i class="fa-solid fa-circle position-relative me-2" style="font-size: 5px;top:-3px"></i>
-                                Specialized Machinery for Seed Manual & Auto Packaging. Re-Packing, Bulking & Other works
-                            </p>
-                        </div>
+            <div class="container">
+                <div class="row gy-4">
+                    <p class="text-dark">We have a separate work shed for fumigation, grading, packaging and necessary space
+                        for sun
+                        drying is also available. We have Unit-1 and Unit-2 Processing Plant Seed Cleaning/ Grading,
+                        Gravity Separator, Treatment-Drying, Packing, Inkjet Print & delivery also</p>
+                    <div class="col-lg-8 details order-2 order-lg-1">
+                        <h5 class="text-dark"><b>Working Power & Capacity at Askco MSP Centre Limited also-</b></h5>
+                        <ul>
+                            <li class="text-dark">Rice Seed Cleaning grading per/Day Capacity up to 100MT.
+                            </li>
+                            <li class="text-dark">Seed Gravity Separator Per/Day Capacity up to 80MT.</li>
+                            <li class="text-dark">Seed Treatment & Auto Drying Per/Day Capacity up to 80MT.</li>
+                            <li class="text-dark">Small Seed Treater Cum Coating Dressing Drum for Vegetables capacity 200
+                                kg per hour. </li>
+                            <li class="text-dark">Manual Packing (Man Power) Per/Day Capacity up to 50 MT.</li>
+                            <li class="text-dark">Auto Packing Per/Day Capacity up to 30 MT.</li>
+                            <li class="text-dark">Ink jet Printing Per/Day Capacity 35000 Pcs Pouch.</li>
+                            <li class="text-dark">Specialized Machinery for Seed Manual & Auto Packing, Re-Packing & works.
+                            </li>
 
+                        </ul>
+                        <div class="" style="height: 250px;">
+                            <img src="{{ asset('frontend_assets/common/112.png') }}" alt="" class="img-fluid"
+                                style="height: 100%;">
+                        </div>
                     </div>
-                </div>
-                <div class="row py-5">
-                    <div class="col-md-6 col-lg-3 py-2 text-center">
-                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/1.png') }}"
-                            alt="">
+
+                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="{{ asset('frontend_assets/common/111.png') }}" alt="" class="img-fluid">
                     </div>
-                    <div class="col-md-6 col-lg-3 py-2 text-center">
-                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/2.png') }}"
-                            alt="">
-                    </div>
-                    <div class="col-md-6 col-lg-3 py-2 text-center">
-                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/3.png') }}"
-                            alt="">
-                    </div>
-                    <div class="col-md-6 col-lg-3 py-2 text-center">
-                        <img class="img-fluid" src="{{ asset('frontend_assets/common/seed_processing/4.png') }}"
-                            alt="">
-                    </div>
+
                 </div>
             </div>
-        </section><!-- End Departments Section -->
+        </section>
+        <section id="departments" class="departments pt-0">
+            <div class="container">
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-md-5 col-lg-4">
+                        <img src="{{ asset('frontend_assets/common/113.png') }}" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-5 col-lg-4">
+                        <img src="{{ asset('frontend_assets/common/114.png') }}" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
 
     </main>
 
