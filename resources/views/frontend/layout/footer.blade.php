@@ -5,20 +5,34 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>AskCo</h3>
-                    <p>
-                        House: 34, Old DOHS <br>
-                        Dhaka cantonment.<br>
-                        Banani, Dhaka-1206 <br><br>
-                        <strong>Phone:</strong> +8801678590209<br>
+                    {{-- <h3>AskCo</h3> --}}
+                    <a href="/" class="logo me-auto">
+                        <img src="{{ asset('frontend_assets/common/logo/2.png') }}" alt="" class="img-fluid w-50">
+                    </a>
+                    <p class="mt-3">
+                        <strong>Phone:</strong> 01678590205 - 9<br>
                         <strong>Email:</strong> askco_msp@ymail.com<br>
+                        <strong>Email:</strong> chandan_msp@ymail.com<br>
                     </p>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-links">
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4 class="text-white mb-0">Registered Office</h4>
+                    <p>
+                        House: 34, Old DOHS <br>
+                        Dhaka cantonment.<br>
+                        Banani, Dhaka-1206 <br>
+                    </p>
+                    <h4 class="text-white mb-0">Industry</h4>
+                    <p>
+                        Holding: 01, Ward: 05, <br> Road: 02, Block: B, <br> Ashulia, Dhaka
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 footer-links">
                     <h4 class="text-white">Quick Links</h4>
                     <ul class="text-white">
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home_page') }}">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('gallery') }}">Gallery</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('about_us_page') }}">About us</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('contact') }}">Contact us</a></li>
                     </ul>
@@ -30,19 +44,15 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-processing') }}">Seed
                                 Processing</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-packaging') }}">Seed
-                                Packaging</a></li>
+                                Packing</a></li>
+
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-storage') }}">Seed Storage</a>
+                        </li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('seed-laboratory') }}">Seed
+                                Laboratory</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('transport') }}">Transport</a></li>
                     </ul>
                 </div>
-
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4 class="text-white">Join Our Newsletter</h4>
-                    <p>Stay Informed and Inspired: Subscribe to Our Newslette</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-                </div>
-
             </div>
         </div>
     </div>

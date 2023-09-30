@@ -27,6 +27,14 @@ class MasterController extends Controller
     {
         return view('frontend.pages.services.seed_packaging');
     }
+    public function seed_laboratory()
+    {
+        return view('frontend.pages.services.seed_laboratory');
+    }
+    public function seed_storage()
+    {
+        return view('frontend.pages.services.seed_storage');
+    }
 
     public function transport()
     {
@@ -41,5 +49,9 @@ class MasterController extends Controller
     public function clients()
     {
         return view('frontend.pages.clients');
+    }
+    public function gallery()
+    {
+        return view('frontend.pages.gallery');
     }
 }
