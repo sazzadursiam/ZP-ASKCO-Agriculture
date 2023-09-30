@@ -8,27 +8,29 @@
 
     <style>
         .gallery .gallery-item {
-            height: 150px;
-            overflow: hidden;
-            border: 1px solid #fff;
+            /* height: 150px; */
+            /* overflow: hidden; */
+            /* border: 1px solid #fff; */
             display: flex;
             justify-content: center;
             align-items: center;
-            border-collapse: collapse;
+            /* border-collapse: collapse; */
+            margin-bottom: 10px;
         }
 
-        .gallery .gallery-item a img {
-            margin: auto;
-        }
+        /* .gallery .gallery-item a img {
+                                            margin: auto;
+                                        } */
     </style>
 @endsection
 @section('content')
     <main id="main" style="min-height: 90vh;">
-        <div class="inner_page_hero d-flex flex-column align-items-center position-relative">
+        <div class="inner_page_hero d-flex flex-column align-items-center">
             <img src="{{ asset('frontend_assets/common/our_clients.png') }}" alt="" class="w-100">
 
-            <div class="text-center"
-                style="background-color: #10125e; padding: 15px 0px; border-radius: 10px; width:40%;position: absolute;bottom: -35px;">
+
+
+            <div class="text-center inner-box">
                 <h5 class="text-white mb-0"><b>OUR CLIENTS</b></h5>
             </div>
         </div>
@@ -37,26 +39,7 @@
 
         <!-- ======= Gallery Section ======= -->
         <section id="gallery" class="gallery">
-            <div class="container mt-5">
-
-                <div class="section-title">
-                    <h5 style="color: #458301">
-                        <b>Celebrating a Legacy of Trusted Collaborations: Our Distinguished
-                            Clientele</b>
-                    </h5>
-                </div>
-
-                <div class="d-flex justify-content-center">
-                    <div class="text-center"
-                        style="background-color: #10125e; padding: 10px 0px; border-radius: 0px 15px 0px 15px; width:30%;">
-                        <h5 class="text-white mb-0"><b>Local Clients</b></h5>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="container mt-5">
+            <div class="container">
                 <div class="row g-0">
 
                     <div class="col-lg-3 col-md-4">
@@ -64,7 +47,7 @@
                             <a href="{{ asset('frontend_assets/common/local_clients/1 (1).png') }}"
                                 class="galelry-lightbox">
                                 <img src="{{ asset('frontend_assets/common/local_clients/1 (1).png') }}" alt=""
-                                    class="ms-auto">
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
@@ -257,6 +240,8 @@
                             </a>
                         </div>
                     </div>
+
+
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
                             <a href="{{ asset('frontend_assets/common/local_clients/1 (23).png') }}"
@@ -266,95 +251,86 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (24).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (24).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (25).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (25).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (26).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (26).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
 
-                </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (27).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (27).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (28).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (28).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (29).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (29).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (30).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (30).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="gallery-item">
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (31).png') }}"
+                                class="galelry-lightbox">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (31).png') }}" alt=""
+                                    class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
 
-            </div>
-        </section>
-        <section id="gallery" class="gallery">
-            <div class="container mt-5">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center"
-                        style="background-color: #458301; padding: 10px 0px; border-radius: 0px 15px 0px 15px; width:30%;">
-                        <h5 class="text-white mb-0"><b>International Clients</b></h5>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="container mt-5">
-                <div class="row g-0">
-
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (1).png') }}"
+                            <a href="{{ asset('frontend_assets/common/local_clients/1 (32).png') }}"
                                 class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (1).png') }}"
-                                    alt="" class="ms-auto">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (2).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (2).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (3).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (3).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (4).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (4).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (5).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (5).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (6).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (6).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (7).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (7).png') }}"
-                                    alt="" class="img-fluid">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="gallery-item">
-                            <a href="{{ asset('frontend_assets/common/international_clients/1 (8).png') }}"
-                                class="galelry-lightbox">
-                                <img src="{{ asset('frontend_assets/common/international_clients/1 (8).png') }}"
-                                    alt="" class="img-fluid">
+                                <img src="{{ asset('frontend_assets/common/local_clients/1 (32).png') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>

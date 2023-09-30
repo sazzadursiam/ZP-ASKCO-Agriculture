@@ -10,7 +10,7 @@
         .contact_us_page .social-links a {
             font-size: 18px;
             display: inline-block;
-            background: #10125e;
+            background: #2E3191;
             color: #fff;
             line-height: 1;
             padding: 8px 0;
@@ -25,17 +25,15 @@
 @endsection
 @section('content')
     <main id="main" style="min-height: 90vh;">
-        <div class="inner_page_hero d-flex flex-column align-items-center position-relative">
+        <div class="inner_page_hero d-flex flex-column align-items-center">
             <img src="{{ asset('frontend_assets/common/contact_hero.png') }}" alt="" class="w-100">
 
-            <div class="text-center"
-                style="background-color: #10125e; padding: 15px 0px; border-radius: 10px; width:40%;position: absolute;bottom: -35px;">
+
+
+            <div class="text-center inner-box">
                 <h5 class="text-white mb-0"><b>CONTACT US</b></h5>
             </div>
         </div>
-
-
-
         <!-- =======  Section ======= -->
         <section id="" class="">
             <div class="container mt-5 contact_us_page">
@@ -43,12 +41,12 @@
                     <div class="col-md-6">
                         <h6 class="text-uppercase" style="color: #458300"><b>CONTACT US FOR ANY QUESTIONS</b></h6>
                         <br>
-                        <h6 class="text-uppercase" style="color: #10125e"><b>Registered Office</b></h6>
-                        <p style="color: #10125e">House: 34, Old DOHS, Dhaka cantonment. Banani, Dhaka-1206
+                        <h6 class="text-uppercase" style="color: #2E3191"><b>Registered Office</b></h6>
+                        <p style="color: #2E3191">House: 34, Old DOHS, Dhaka cantonment. Banani, Dhaka-1206
                         </p>
                         <br>
-                        <h6 class="text-uppercase" style="color: #10125e"><b>Industry</b></h6>
-                        <p style="color: #10125e">Holding: 01, Ward: 05, Road: 02, Block: B, Ashulia, Dhaka
+                        <h6 class="text-uppercase" style="color: #2E3191"><b>Industry</b></h6>
+                        <p style="color: #2E3191">Holding: 01, Ward: 05, Road: 02, Block: B, Ashulia, Dhaka
                         </p>
 
                     </div>
@@ -117,7 +115,7 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="text-center"><button type="submit" style="background-color: #10125e">Send
+                            <div class="text-center"><button type="submit" style="background-color: #2E3191">Send
                                     Message</button></div>
                         </form>
 

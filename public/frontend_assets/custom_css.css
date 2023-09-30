@@ -1,5 +1,5 @@
 #topbar {
-    background: #10125e;
+    background: #2e3191;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
@@ -29,7 +29,7 @@
 
 .appointment-btn {
     margin-left: 0;
-    background: #10125e;
+    background: #2e3191;
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px;
@@ -39,7 +39,7 @@
     display: inline-block;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
     content: "";
     position: absolute;
     display: block;
@@ -48,21 +48,22 @@
     background: #458300;
     bottom: 0;
     left: calc(50% - 20px);
-}
+} */
 .services .icon-box {
     text-align: center;
-    border: 1px solid #d5e1ed;
+    border: 1px solid #458300;
+    border-radius: 5px;
     padding: 40px 20px;
     transition: all ease-in-out 0.3s;
 }
 .services .icon-box:hover {
     /* background: #1977cc; */
-    background: #10125e;
+    background: #2e3191;
     border-color: #1977cc;
 }
 .services .icon-box:hover .appointment-btn {
     /* background: #1977cc; */
-    background: #10125e;
+    background: #2e3191;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.726);
     /* border-color: #1977cc; */
 }
@@ -73,29 +74,29 @@
     justify-content: center;
     width: 64px;
     height: 64px;
-    border: 2px solid #10125e;
+    border: 2px solid #2e3191;
     border-radius: 50px;
     transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-    color: #10125e;
+    color: #2e3191;
     font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-    background: #10125e;
-    border-color: #10125e;
+    background: #2e3191;
+    border-color: #2e3191;
 }
 #footer {
     color: #ffffff;
     font-size: 14px;
-    background: #10125e;
+    background: #2e3191;
 }
 #footer .footer-top {
     color: #ffffff;
     padding: 60px 0 30px 0;
-    background: #10125e;
+    background: #2e3191;
     box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 #footer .footer-top .footer-contact p {
@@ -129,12 +130,13 @@
     }
 }
 .inner-box {
-    background-color: #10125e;
+    background-color: #2e3191;
     padding: 15px 0px;
     border-radius: 10px;
-    width: 40%;
-    position: absolute;
-    bottom: -35px;
+    width: 20%;
+    margin-top: 30px;
+    /* position: absolute; */
+    /* bottom: -35px; */
 }
 @media (max-width: 768px) {
     .inner-box {

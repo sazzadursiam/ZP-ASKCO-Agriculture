@@ -467,7 +467,8 @@ h6 {
     background: url("../../common/hero/1.png") top center;
     background-size: cover;
     /* background-size: contain; */
-    margin-bottom: -200px;
+    /* margin-bottom: -200px; */
+    margin-bottom: 40px;
 }
 
 #hero .container {
@@ -568,7 +569,7 @@ section {
     color: #2c4964;
 }
 
-.section-title h2::before {
+/* .section-title h2::before {
     content: "";
     position: absolute;
     display: block;
@@ -588,7 +589,7 @@ section {
     background: #1977cc;
     bottom: 0;
     left: calc(50% - 20px);
-}
+} */
 
 .section-title p {
     margin-bottom: 0;
