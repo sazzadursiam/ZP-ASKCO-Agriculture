@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Message;
 use Illuminate\Http\Request;
 
 class MasterController extends Controller
@@ -54,4 +55,35 @@ class MasterController extends Controller
     {
         return view('frontend.pages.gallery');
     }
+
+
+    public function message_store(Request $request)
+    {
+        if ($request->isMethod('post')) {
+
+            $validated = $request->validate([
+                'name' => 'required',
+                'phone' => 'required',
+                'email' => 'required',
+                'message' => 'required',
+            ]);
+
+            //Insert data into database
+            $model = new Message();
+
+            $model->name = $request->name;
+            $model->phone = $request->phone;
+            $model->email = $request->email;
+            $model->address = $request->address;
+            $model->type_of_query = $request->type_of_query;
+            $model->subject = $request->subject;
+            $model->message = $request->message;
+
+            $model->save();
+        }
+        return back()->with('message', 'Message has been sent...!');
+    }
+
+
+    
 }
