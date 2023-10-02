@@ -52,10 +52,10 @@
             </div>
         </section> --}}
 
-        <section id="departments" class="departments">
+        <section id="departments" class="departments pt-0">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-8 details order-2 order-lg-1">
+                    <div class="col-lg-8 details">
 
                         <h3 class="section_title" style="color: #458300">OUR STORY</h3>
 
@@ -75,7 +75,7 @@
                                 MORE</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <div class="col-lg-4 text-center">
                         <img src="{{ asset('frontend_assets/common/1.png') }}" alt="" class="img-fluid">
                     </div>
                 </div>

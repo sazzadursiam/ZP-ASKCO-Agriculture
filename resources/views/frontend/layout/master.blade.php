@@ -85,6 +85,12 @@
     <!-- End Footer -->
 
     <div id="preloader"></div>
+    <div style="height: 50px;width:50px;background:#25d366;position: fixed;bottom: 15px;left: 15px;color: white;border-radius: 50%;padding: 3px;z-index:1"
+        class="d-flex align-items-center justify-content-center">
+        <a href="https://api.whatsapp.com/send?phone=01xxxxxxxxx" style="color:#fff">
+            <i class="fa-brands fa-whatsapp fa-xl"></i>
+        </a>
+    </div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i>
     </a>
