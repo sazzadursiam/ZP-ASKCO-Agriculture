@@ -39,8 +39,6 @@
             <div class="container mt-5 contact_us_page">
                 <div class="row gy-4">
                     <div class="col-md-6">
-                        <h6 class="text-uppercase" style="color: #458300"><b>CONTACT US FOR ANY QUESTIONS</b></h6>
-                        <br>
                         <h6 class="text-uppercase" style="color: #2E3191"><b>Registered Office</b></h6>
                         <p style="color: #2E3191">House: 34, Old DOHS, Dhaka cantonment. Banani, Dhaka-1206
                         </p>
@@ -51,13 +49,35 @@
 
                     </div>
                     <div class="col-md-6">
-                        <h6 class="text-uppercase" style="color: #458300"><b>Follow our social network</b></h6>
+                        <h6 class="text-uppercase" style="color: #458300"><b>CONTACT US</b></h6>
+                        <div class="d-flex mb-2">
+                            <div style="height:25px;width:25px;background:#458300;padding:3px;border-radius:50%;display: flex;justify-content: center;align-items: center;"
+                                class="me-2">
+                                <i class="fa-solid fa-phone fa-xs" style="color: #fff"></i>
+                            </div>
+                            <div>01678590205 - 9</div>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <div style="height:25px;width:25px;background:#458300;padding:3px;border-radius:50%;display: flex;justify-content: center;align-items: center;"
+                                class="me-2">
+                                <i class="fa-solid fa-envelope fa-xs" style="color: #fff"></i>
+                            </div>
+                            <div>askco_msp@ymail.com</div>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <div style="height:25px;width:25px;background:#458300;padding:3px;border-radius:50%;display: flex;justify-content: center;align-items: center;"
+                                class="me-2">
+                                <i class="fa-solid fa-envelope fa-xs" style="color: #fff"></i>
+                            </div>
+                            <div>chandan_msp@ymail.com</div>
+                        </div>
+
+
+                        <h6 class="text-uppercase pt-3" style="color: #458300"><b>Follow our social network</b></h6>
 
                         <div class="social-links pt-3 pt-md-0">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>
                     </div>
@@ -68,29 +88,21 @@
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact pt-0">
             <div class="container">
-
-                <div class="section-title">
-                    <h2 style="color: #458300">GET IN TOUCH</h2>
-                    {{-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                        fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
-                </div>
-            </div>
-
-
-
-            <div class="container mb-5">
-                <div class="row mt-1 justify-content-center">
-
-                    <div class="col-md-6 mt-5 mt-lg-0">
-
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="{{ asset('frontend_assets/common/contact.png') }}" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="section-title">
+                            <h2 style="color: #458300">GET IN TOUCH</h2>
+                        </div>
+                        <form action="{{ route('message-store') }}" method="post" role="form" class="php-email-form">
                             <div class="row">
-                                <div class="col-md-6 form-group">
+                                <div class=" form-group">
                                     <input type="text" name="name" class="form-control" id="name"
                                         placeholder="Your Name" required>
                                 </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <div class=" form-group mt-3 ">
                                     <input type="email" class="form-control" name="email" id="email"
                                         placeholder="Your Email" required>
                                 </div>
@@ -118,6 +130,17 @@
                             <div class="text-center"><button type="submit" style="background-color: #2E3191">Send
                                     Message</button></div>
                         </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container mb-5">
+                <div class="row mt-1 justify-content-center">
+
+                    <div class="col-md-6 mt-5 mt-lg-0">
+
+
 
                     </div>
 
