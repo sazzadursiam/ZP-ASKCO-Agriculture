@@ -38,8 +38,8 @@
                                         <th>Name</th>
                                         <th>Phone</th>
                                         <th>Email</th>
-                                        <th>address</th>
-                                        <th>type_of_query</th>
+                                        <th>Address</th>
+                                        <th>Query Type</th>
                                         <th>subject</th>
                                         <th>Message</th>
                                         <th>Action</th>
@@ -82,7 +82,7 @@
                                                     onclick="return confirm('Are you sure you want to delete?');"
                                                     type="button" class="btn btn-danger btn-sm">
 
-                                                    <i class="fa fa-trash"></i> Delete
+                                                    <i class="fa fa-trash"></i>
                                                 </a>
                                             </td>
 

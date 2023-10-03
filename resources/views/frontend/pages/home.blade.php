@@ -97,9 +97,9 @@
                     <div class="col-lg-4 col-md-6 ">
                         <div class="icon-box">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/s1.png') }}" alt="">
-                            <h4 class="mt-4"><a href="#">Seed Storage</a></h4>
+                            <h4 class="mt-4"><a href="{{ route('seed-storage') }}">Seed Storage</a></h4>
                             <div>
-                                <a href="#" class="appointment-btn mb-2">READ MORE</a>
+                                <a href="{{ route('seed-storage') }}" class="appointment-btn mb-2">READ MORE</a>
                             </div>
                         </div>
                     </div>
@@ -119,9 +119,9 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="icon-box">
                             <img class="img-fluid" src="{{ asset('frontend_assets/common/s3.png') }}" alt="">
-                            <h4 class="mt-4"><a href="#">Seed Laboratory</a></h4>
+                            <h4 class="mt-4"><a href="{{ route('seed-laboratory') }}">Seed Laboratory</a></h4>
                             <div>
-                                <a href="#" class="appointment-btn mb-2">READ MORE</a>
+                                <a href="{{ route('seed-laboratory') }}" class="appointment-btn mb-2">READ MORE</a>
                             </div>
                         </div>
                     </div>
